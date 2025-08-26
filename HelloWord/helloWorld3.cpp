@@ -5,10 +5,10 @@ using namespace std;
 int main(){
     string userName;
     int userAge;
-cout <<"What's you name:";
+cout <<"Cual es tu nombre: ";
 cin >> userName;
-cout << "How old are you:";
+cout << "cual es tu edad: ";
 cin >> userAge ;
-cout<< "Hola "<< userName<<" usted ha ingresado que su edad es de "<< userAge<< "años." << endl ; 
-
+cout<< "Hola "<< userName<<" usted ha ingresado que su edad es de "<< userAge<< " años." << endl ; 
+return 0;
 }
