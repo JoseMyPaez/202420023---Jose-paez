@@ -4,20 +4,32 @@ using namespace std;
 
 int main (){
 
-    cout<<"se imprimiran las tablas "<<endl;
+    int ramdomValue, userValue ;
+    cout<<"Dame el numero aleatorio que intentaras adivinar"<<endl;
+    cin>>ramdomValue;
+    userValue=0;
 
-    for (int i = 1; i < 11; i++)
+    while (userValue != ramdomValue)
     {
-            cout<<"tabla del "<< i << endl <<endl;
-        for(int j=1;j<11;j++)
-        {
-            int result = i*j;
-            cout <<i<<" * "<< j <<" = "<<result<<endl;
+        cout<<"dame tu numero"<< endl;
+        cin>>userValue ;
 
+        if (userValue>ramdomValue)
+        {
+            cout<<"El numero proporcionado es mayor que el aleatorio"<<endl;
         }
-        cout <<endl<<endl;
+        else if (userValue<ramdomValue)
+        {
+            cout<<"el numero proporcionado es menor que el aleatorio ;"<<endl;
+        }
+        else
+        {
+            cout<<"meeee"<<endl;
+        }
+        
     }
     
 
 
 }
+//
