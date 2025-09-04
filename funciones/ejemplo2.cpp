@@ -4,31 +4,31 @@ using namespace std;
 
 int sumTwoValues(int valueOne, int valueTwo){
     int sumResult= valueOne + valueTwo; 
-    cout<<"La suma de sus valores es de"<<sumResult<<endl;
+    cout<<"La suma de sus valores es de "<<sumResult<<endl;
     return sumResult;
 }
 
 int subsTwoValues(int valueOne, int valueTwo){
     int subResult= valueOne - valueTwo; 
-    cout<<"La suma de sus valores es de"<<subResult<<endl;
+    cout<<"La suma de sus valores es de "<<subResult<<endl;
     return subResult;
 }
 
 int multTwoValues(int valueOne, int valueTwo){
     int multResult= valueOne + valueTwo; 
-    cout<<"La suma de sus valores es de"<<multResult<<endl;
+    cout<<"La suma de sus valores es de "<<multResult<<endl;
     return multResult;
 }
 
 void divTwoValues(int valueOne, int valueTwo){
     if (valueTwo == 0)
     {
-        cout<<"la division es indeterminada"<<endl;
+        cout<<"la division es indeterminada "<<endl;
     }
     else
     {
         int divResult= valueOne + valueTwo; 
-        cout<<"La suma de sus valores es de"<<divResult<<endl;
+        cout<<"La suma de sus valores es de "<<divResult<<endl;
     }
    
 }
@@ -49,7 +49,7 @@ void compareTwoValues(int valueOne,int valueTwo)
 void moduleTwoValues(int valueOne, int valueTwo)
 {
     int moduleResult= valueOne % valueTwo; 
-    cout<<"La suma de sus valores es de"<<moduleResult<<endl;    
+    cout<<"El modulo de sus valores es de "<<moduleResult<<endl;    
 }
 
 
@@ -60,7 +60,7 @@ int main()
     cin>>valueOne;
     cout<<"Ingrese su segundo valor"<<endl;
     cin>>valueTwo;
-    cout<<"Que operacioin desea realizar: "<<endl<<"1   Suma"<<endl<<"2    Resta"<<endl<<"3    Multiplicacion"<<endl<<"4    Division"<<endl;
+    cout<<"Que operacioin desea realizar: "<<endl<<"1    Suma"<<endl<<"2    Resta"<<endl<<"3    Multiplicacion"<<endl<<"4    Division"<<endl<<"5    Modulo"<<endl;
     cin>>operationValue;
     switch (operationValue)
     {
