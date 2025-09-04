@@ -14,7 +14,7 @@ void passOrNot(float value ){
     }
     else
     {
-        cout<<"Algo raro paso"<<endl;
+        cout<<"Paso raspando"<<endl;
     }
 }
 
