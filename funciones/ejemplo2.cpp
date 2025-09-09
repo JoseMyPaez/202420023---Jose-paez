@@ -52,6 +52,13 @@ void moduleTwoValues(int valueOne, int valueTwo)
     cout<<"El modulo de sus valores es de "<<moduleResult<<endl;    
 }
 
+int squareValue(int valueOne)
+{
+    cout<<"Se generara el cuadrado del primer numero que ha proporcionado ";
+    int squareValue = valueOne * valueOne;
+    return squareValue;
+}
+
 
 int main()
 {
@@ -60,7 +67,7 @@ int main()
     cin>>valueOne;
     cout<<"Ingrese su segundo valor"<<endl;
     cin>>valueTwo;
-    cout<<"Que operacioin desea realizar: "<<endl<<"1    Suma"<<endl<<"2    Resta"<<endl<<"3    Multiplicacion"<<endl<<"4    Division"<<endl<<"5    Modulo"<<endl;
+    cout<<"Que operacioin desea realizar: "<<endl<<"1    Suma"<<endl<<"2    Resta"<<endl<<"3    Multiplicacion"<<endl<<"4    Division"<<endl<<"5    Modulo"<<endl<<"6   Cuadrado"<<endl;
     cin>>operationValue;
     switch (operationValue)
     {
@@ -81,6 +88,10 @@ int main()
         break;
     case 5:
         moduleTwoValues(valueOne,valueTwo);
+        break;
+    case 6:
+        result= squareValue(valueOne);
+        cout<<"El valor cuadrado del numero "<<valueOne<<" es "<<result<<endl;
         break;
     default:
         cout<<"La operacion que selecciono es inexistente"<<endl;
