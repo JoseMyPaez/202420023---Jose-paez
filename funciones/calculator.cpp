@@ -59,6 +59,24 @@ int squareValue(int valueOne)
     return squareValue;
 }
 
+int getGreater(int valueOne, int valueTwo)
+{
+int result =0;
+    if (valueOne>valueTwo)
+    {
+        result = valueOne;
+    }
+    else if (valueTwo<valueOne)
+    {
+        result = valueTwo;
+    }
+    else
+    {
+        cout<<"Algo salio descomunalmente mal, pero no se que es"<<endl;
+    }
+    
+    return result;
+}
 
 int main()
 {
@@ -92,6 +110,10 @@ int main()
     case 6:
         result= squareValue(valueOne);
         cout<<"El valor cuadrado del numero "<<valueOne<<" es "<<result<<endl;
+        break;
+    case 7:
+        result= getGreater(valueOne,valueTwo);
+        cout<<"El numero "<<result<<" es el mayor"<<endl;
         break;
     default:
         cout<<"La operacion que selecciono es inexistente"<<endl;
