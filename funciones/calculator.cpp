@@ -54,7 +54,7 @@ void moduleTwoValues(int valueOne, int valueTwo)
 
 int squareValue(int valueOne)
 {
-    cout<<"Se generara el cuadrado del primer numero que ha proporcionado ";
+    cout<<"Se generara el cuadrado del primer numero que ha proporcionado "<<endl;
     int squareValue = valueOne * valueOne;
     return squareValue;
 }
