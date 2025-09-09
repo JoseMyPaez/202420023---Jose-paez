@@ -85,7 +85,7 @@ int main()
     cin>>valueOne;
     cout<<"Ingrese su segundo valor"<<endl;
     cin>>valueTwo;
-    cout<<"Que operacioin desea realizar: "<<endl<<"1    Suma"<<endl<<"2    Resta"<<endl<<"3    Multiplicacion"<<endl<<"4    Division"<<endl<<"5    Modulo"<<endl<<"6   Cuadrado"<<endl;
+    cout<<"Que operacioin desea realizar: "<<endl<<"1    Suma"<<endl<<"2    Resta"<<endl<<"3    Multiplicacion"<<endl<<"4    Division"<<endl<<"5    Modulo"<<endl<<"6    Cuadrado"<<endl<<"7    Numero Mayor"<<endl;
     cin>>operationValue;
     switch (operationValue)
     {
