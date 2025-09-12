@@ -2,8 +2,7 @@
 
 using namespace std;
 
-void valorateTemp(int temperature )
-{
+void valorateTemp(int temperature ){
     if (temperature<15)
     {
         cout <<"Esta haciendo frio"<<endl;
@@ -19,8 +18,7 @@ void valorateTemp(int temperature )
     
 }
 
-int main()
-{
+int main(){
     int temperature;
     cout<<"Ingrese la temperarura"<<endl;
     cin>>temperature;
