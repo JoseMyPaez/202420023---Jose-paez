@@ -2,24 +2,24 @@
 
 using namespace std;
 
-int biggerOfThree(int firstnumber, int secondnumber, int thirdnumber){
-    if(firstnumber >= secondnumber && firstnumber >= thirdnumber){
-        return firstnumber;
-    } else if (secondnumber >= firstnumber && secondnumber >= thirdnumber){
-        return secondnumber;
+int biggerOfThree(int firstNumber, int secondNumber, int thirdNumber){
+    if(firstNumber >= secondNumber && firstNumber >= thirdNumber){
+        return firstNumber;
+    } else if (secondNumber >= firstNumber && secondNumber >= thirdNumber){
+        return secondNumber;
     } else {
-        return thirdnumber;
+        return thirdNumber;
     }
 }
 
 int main(){
-    int firstnumber, secondnumber, thirdnumber;
+    int firstNumber, secondNumber, thirdNumber;
     cout<<"Dame el primer número: "<<endl;
-    cin>>firstnumber;
+    cin>>firstNumber;
     cout<<"Dame el segundo número: "<<endl;
-    cin>>secondnumber;
+    cin>>secondNumber;
     cout<<"Dame el tercer número: "<<endl;
-    cin>>thirdnumber;
-    cout<<"El número mayor es: "<<biggerOfThree(firstnumber, secondnumber, thirdnumber)<<endl;
+    cin>>thirdNumber;
+    cout<<"El número mayor es: "<<biggerOfThree(firstNumber, secondNumber, thirdNumber)<<endl;
     return 0;
 }

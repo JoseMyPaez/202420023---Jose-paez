@@ -2,21 +2,21 @@
 
 using namespace std;
 
-void biggestNumber(int firstnumber, int secondnumber){
-    if(firstnumber > secondnumber){
-        cout<<"El número mayor es: "<<firstnumber<<endl;
-    } else if (secondnumber > firstnumber){
-        cout<<"El número mayor es: "<<secondnumber<<endl;
+void biggestNumber(int firstNumber, int secondNumber){
+    if(firstNumber > secondNumber){
+        cout<<"El número mayor es: "<<firstNumber<<endl;
+    } else if (secondNumber > firstNumber){
+        cout<<"El número mayor es: "<<secondNumber<<endl;
     } else {
         cout<<"Los números son iguales"<<endl;
     }
 }   
 
 int main(){
-    int fiirsnumbre, secondnumber;
+    int firstNumber, secondNumber;
     cout<<"Dame el primer número: "<<endl;
-    cin>>fiirsnumbre;
+    cin>>firstNumber;
     cout<<"Dame el segundo número: "<<endl;
-    cin>>secondnumber;
+    cin>>secondNumber;
 
 }
