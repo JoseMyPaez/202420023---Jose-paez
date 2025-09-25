@@ -2,10 +2,14 @@
 
 using namespace std;
 
-void countdown(int number){
+void countdownEvenOdd(int number){
     while (number >= 0)
     {
-        cout<<number<<" ";
+        if(number % 2 == 0){
+            cout<<number<<" es par"<<endl;
+        } else {
+            cout<<number<<" es impar"<<endl;
+        }
         number--;
     }
     
@@ -26,10 +30,9 @@ int main(){
     int number ;
     cout<<"Dame un número para desendiente: "<<endl;
     cin>>number;
-    countdown(number);
+    countdownEvenOdd(number);
     cout<<"Dame un número para ascendente: "<<endl;
     cin>>number;
     countUp(number);
     return 0;
-
 }
