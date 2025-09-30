@@ -25,9 +25,26 @@ void forWithStringVocals(){
     cout<<"hay "<<vocaksCount<<" vocales"<<endl;
 }
 
+void forWhitStringALetter(){
+    string example = "otorrinolaringologo";
+    int vocaksCount = 0;
+    for (int i = 0; i < example.size(); i++)
+    {
+        char textChar = example[i];
+        if (textChar == 'o')
+        {
+            vocaksCount++;
+        }  
+    }   
+    cout<<"hay "<<vocaksCount<<" letras o "<<endl;
+}
+
+
+
 
 int main (){
-    forWithString();
-    forWithStringVocals();
+    //forWithString();
+    //forWithStringVocals();
+    forWhitStringALetter();
     return 0;
 }
